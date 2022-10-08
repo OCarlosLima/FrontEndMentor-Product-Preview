@@ -120,25 +120,3 @@ body {
     }
 
 }
-
-@media only screen and (max-width: 375px) {
-
-    .content {
-        grid-template-columns: 1fr;
-    }
-
-    .image img {
-        max-height: 450px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .card {
-        display: block;
-    }
-
-    .perfume-txt, .gab-txt, .description, .price {
-        padding-bottom: 23px;
-    }
-
-}
